@@ -127,7 +127,12 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/andicuku/learning_django.git
+git push -u origin main
 # Pyre type checker
 .pyre/
 
