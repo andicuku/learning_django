@@ -1,0 +1,18 @@
+h1{
+    font-size: 10rem;
+
+}
+
+
+table, thead, tbody, tr, td,th{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
+tr:hover{
+    background-color: #e2e2e2;
+}

@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('crm_application.urls'))
+    path('', include('crm_application.urls', namespace='leads'))
 ]
